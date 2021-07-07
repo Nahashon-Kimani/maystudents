@@ -1,0 +1,92 @@
+.page-header{
+    background-image: url('../../images/godzilla-movies-movie-poster-godzilla-king-of-the-monsters-wallpaper-preview.jpg');
+    min-height: 500px;
+    background-position: center;
+}
+.border{
+    background-color: rgb(119, 119, 238);
+    height: 4px!important;
+    width: 40px;
+    margin: 10px 0px;
+}
+.navbar img{
+width: 50%;
+height: 50%;
+}
+
+.tiger{
+background-image: url('../../images/images\ \(83\).jpeg');
+min-height: 500px;
+background-position: center;
+background-repeat: repeat-x;
+}
+.cobra{
+background-image: url('../../images/images\ \(77\).jpeg');
+min-height: 500px;
+background-position: center;
+}
+
+.footer{
+background-image: url('../../images/lucas-benjamin-wq1BodC0TS8-unsplash.jpg');
+min-height: 350px;
+min-height: 350px;
+background-position: center;
+}
+.eagle{
+    padding-top: 20px;
+background-image: url('../../images/lucas-benjamin-wq1BodC0TS8-unsplash.jpg');
+background-position: center;
+min-height: 350px;
+min-height: 350px;
+}
+
+.staff{
+    background-color:  #5a93c2;
+    padding: 20px 0px 20px 0px;
+}
+.staff h3{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.staff p.h5{
+    font-size: 20px;
+    color: white;
+}
+.staff .border{
+    background-color: white;
+    height: 4px!important;
+    width: 40px;
+    margin: 10px 0px;
+}
+
+.footer h4{
+    color: white;
+    font-weight: bold;
+    }
+    .footer a, .footer p{
+        color:white;
+        text-decoration: none;
+    }
+    .footer ul li{
+        color: white;
+        text-decoration: none;
+    }
+    .footer ul li a:hover{
+        margin-left: 10px;
+        color: #8996df!important;
+        transition: 0.;
+    }
+    .footer ul.socialicons li{
+        display: inline;
+        margin-right: 15px;
+        border: 1px solid white;
+        border-radius: 50%;
+        font-size: 30px;
+    height: 50px;
+    width: 50px;
+    }
+    .footer ul.socialicons li a i{
+        position: relative;
+        margin: 10px 10px;
+    }
