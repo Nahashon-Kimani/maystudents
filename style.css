@@ -21,3 +21,19 @@ background: linear-gradient(180deg, rgb(98, 179, 25) 0%, rgba(248,112,9,1) 100%,
 .students .card img{
     height: 330px;
 }
+.footer-dark{
+    background-color: #62b319;
+    min-height: 20vh;
+    color: white;
+}
+.footer-dark a {
+    text-decoration: none;
+    color: white;
+}
+.footer-dark a:hover
+{
+    text-decoration: underline;
+}
+.copyright{
+    background-color: #f87009;
+}
