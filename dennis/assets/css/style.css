@@ -1,0 +1,389 @@
+/* Logo */
+.navbar img{
+    width: 70px;
+    height: 70px;
+ 
+}
+.body{
+    background-color: moccasin;
+  
+}
+
+.background{
+   background-color: moccasin;
+   padding: 20px;
+  
+}
+.word{
+    color: chocolate!important;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Nav-bar  */
+.navbar{
+    background-color: burlywood;
+    width: 100%;
+}
+
+.nav ul li a{
+    color: chocolate!important;
+   
+}
+.nav ul li a:hover{
+    color: gold!important;
+}
+.nav ul li a:focus::before{
+    color: gold;
+    content: "";
+    background-color: gold;
+    width: 10px;
+    height: 3px;
+    border-radius: 0%;
+    position: relative; 
+    left: -2px;
+    top: 0px;
+    display: inline-block;
+}
+.border{
+    background-color: chocolate;
+    height: 4px!important;
+    height: 3px;
+    width: 40px;
+    margin: 10px opx;
+}
+
+/* Carousel Section */
+.carousel-inner img{
+    max-height: 470px;
+    transition: ease-in-out 0.3s;
+}
+.carousel-item h5{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    
+    
+}
+.carousel-item p{
+    color: gold;
+}
+/* Message Section */
+.message{
+    padding: 50px;
+    background-color: moccasin;
+}
+.message h3{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.message p{
+    font-size: 20px;
+    
+}
+/* Location Section */
+.location{
+    background-color: moccasin;
+}
+.location-word{
+    padding-top: 110px;
+    background-color: moccasin!important;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.location-word p:hover{
+    color: gold;
+}
+/* News Section */
+.cardSection{
+    padding-top: 100px;
+    background-color: moccasin;
+}
+
+.cardSection img{
+    width: 100%;
+    height: 200px;
+}
+.cardSection .card{
+   transition: .3s linear;
+}
+.cardSection .card img:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.cardSection .card :hover{
+    box-shadow: 0 0 10px 0 chocolate;
+    cursor: pointer;
+}
+.cardSection a:hover{
+    box-shadow: 0 0 20px 0 chocolate;
+}
+ .card-title h5{
+    color: chocolate!important;
+}
+
+/* Footer */
+.footerId{
+    float: right;
+}
+.contactSpot{
+    border: 2px solid chocolate;
+    border-radius: 50%;
+    transition: .7s;
+    opacity: .7;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.contactSpot:hover{
+   color: magenta;
+}
+.contactSpot a{
+    text-decoration: none;
+    color: chocolate;
+}
+.contactSpot a:hover{
+    color: gold;
+    padding-left: 3px;
+    transition: .2s;
+}
+/* About Us Page */
+.founder{
+    background-color: coral;
+    margin: 5%;
+}
+.founder img{
+    width: 300px;
+    height: 220px;
+    border-radius: 50%;
+    
+}
+ .founder img:hover{
+    box-shadow: 0 0 10px 0 white;
+    transition: .7s;
+    transform: scale(1.1);
+
+}
+.bannerSection{ 
+    background-image: url('../images/clouds.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+.bannerSection h4{
+    font-size: 30px;
+    color: whitesmoke;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.bannerSection h4:hover{
+    color: gold;
+}
+.bannerSection nav ol li.breadcrumb-item,
+.bannerSection nav ol li a{
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.text h3:hover{
+    color: gold;
+}
+  
+.story{
+    font-size: 18px;
+}
+.mission h3:hover{
+    color: gold;
+}
+.staff{
+    background-image: url('../images/sample\ staff.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.staff:hover{
+    box-shadow: 0 0 10px 0 moccasin;
+    transition: .7s;
+    transform: scale(1.1);
+}
+
+/* Costings */
+.costings img{
+    max-height: 400px;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+ 
+}
+.costings h3{ 
+    text-decoration: underline;
+}
+.costings h3:hover{
+    font-size: 35px;
+    color: gold;
+}
+.costings h5{
+    padding-left: 50px;
+    text-decoration: underline;;
+}
+.costings h5:hover{
+    color: chocolate;
+}
+.costings h6{
+    padding-left: 50px;
+}
+.costings h6:hover{
+    color: gold;
+}
+.costings p{
+    padding-left: 60px;
+}
+/* Hearse Section */
+.display img{
+    min-width: 200px;
+}
+
+/* Contact Us */
+.contact{
+    background-image: url(../images/beach\ group\ retreat.jpg);
+}
+.btn{
+    background-color: chocolate;
+    color: white;
+}
+
+/* Photography */
+.photo h2{
+ 
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: chocolate;
+}
+.photo h2:hover{
+    color: gold;
+}
+.photo p{
+    font-size: 18px;
+}
+.photo img:hover{
+    box-shadow: 0 0 10px 0 moccasin;
+    transition: .7s;
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.flower h2{
+ 
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: chocolate;
+}
+.flower h2:hover{
+    color: gold;
+}
+.flower p{
+    font-size: 18px;
+}
+.flower img{
+    max-height: 600px;
+    padding-left: 40px;
+}
+.flower img:hover{
+    box-shadow: 0 0 10px 0 moccasin;
+    transition: .7s;
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+/* Requiems */
+.bible img:hover{
+    box-shadow: 0 0 10px 0 moccasin;
+    transition: .7s;
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.bible h5{
+    padding-top: 60px!important;
+    text-align: center;
+    color: chocolate;
+}
+.bible p{
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 700;
+}
+.bible p:hover{
+    font-size: 18px;
+   
+}
+.bible h2{
+    text-decoration: underline;
+    color: chocolate!important;
+}
+.bible h2:hover{
+    color: gold!important;
+}
+.prayer img:hover{
+    box-shadow: 0 0 10px 0 moccasin;
+    transition: .7s;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+.para h3{
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: chocolate;
+}
+.para h3:hover{
+    color: gold;
+}
+.para p{
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+
+
+}
+/* Post-Mortem/Cremation */
+.post img:hover{
+    box-shadow: 0 0 10px 0 moccasin;
+    transition: .7s;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+.firstPart{
+    background-image: url(../images/counsellor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 300px;
+    padding-top: 120px;
+    color: chocolate;
+}
+.post h3:hover{
+    color: gold!important;
+}
+.post{
+    background-color: peachpuff!important;
+}
+/* Counselling */
+.bridge img{
+    max-height: 300px;
+}
+    
+
