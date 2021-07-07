@@ -1,0 +1,336 @@
+h1{
+    font-size: 70px; 
+}
+h2{
+    font-size: 42px;
+}
+h3{
+    font-size: 30px;
+  ;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 14px;
+}
+p{
+    font-size: 16px;
+    color:#321414;
+    line-height: 1.8;
+}
+.body{
+    background-color: #f7e2d8;
+}
+
+.bannerSection .bannerImage
+{
+    height: 440px;
+}
+.bannerSection h5{
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.bannerSection p{
+    color: white;
+    font-size: 24px;
+}
+.page-header{
+    background-image: url('../assets/images/about.jpg'); 
+    padding:5px;
+}
+.marketingSection
+{
+    padding-top: 60px;
+    background-color: #de8c63;
+}
+.marketingSection h3{
+    color: rgb(121, 90, 90);
+}
+
+.border{
+    background-color:#f7e2d8 ;
+    height: 4px!important;
+    width: 40px;
+    margin: 10px 0px;
+}
+.marketingSection p{
+    max-width: 80%;
+    text-align: center;
+
+}
+.marketingSection .fas{
+    width: 100px;
+    height: 100px;
+    color:#fd7e14 ;
+    border: 2px solid #f7e2d8 ;
+    padding: 25px;
+    border-radius: 40%;
+    transition: 0.2s linear;
+    font-size: 40px;
+}
+.marketingSection .fas:hover{
+    border-radius: 50%;
+}
+.marketingSection h4{
+    color: #64788a!important;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.achievements img{
+    box-shadow: 17px 17px #d8d9da;
+}
+.achievements p.h5{
+    color: #40bf80;
+    font-weight: bold;
+}
+.memberSection {
+    background-color: #40bf80;
+    padding: 80px 0px 80px 0px;
+}
+.memberSection h3{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.memberSection h3:hover>p:hover{
+    color: #64788a;
+}
+.memberSection p.h5{
+    font-size: 20px;
+    color: white;
+}
+.memberSection .border{
+    background-color: white;
+    height: 4px!important;
+    width: 40px;
+    margin: 10px 0px;
+}
+.newsSection{
+    padding-top: 100px;
+    background-color:#de8c63;
+}
+.newsSection img{
+    width: 100%;
+    height: 200px;
+}
+.newsSection .card{
+    transition: .5s linear;
+}
+.newsSection .card img:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.newsSection .card:hover{
+    /* t r b l */
+    box-shadow: 0 0 10px 0 #40bf80 ;
+    cursor: pointer;
+}
+.newsSection a {
+    background-color: orange!important;
+
+}
+
+.newsSection a:hover{
+    box-shadow: 0 0 20px 0 orange;
+}
+.footer h4{
+    color: white;
+    font-weight: bolder;
+}
+.footer a, .footer p{
+    color: white;
+    text-decoration: none;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer ul li a:hover{
+    margin-left: 10px;
+    color: #40bf80!important;
+    transition: 0.7s;
+}
+.footer ul.socialIcons li{
+    display: inline;  /*This in-line order*/
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+/* .footer ul.socialIcons li a i{
+    position: relative;
+    margin: 10px 10px;
+} */
+.footer button{
+    background-color: orange;
+}
+.staffSectionHeader{
+    background-image: url('../images/slide1.jpg');
+    min-height: 200px;
+    width: 100%;
+}
+.staffSectionHeader nav ol li.breadcrumb-item, 
+.staffSectionHeader nav ol li a{
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.staffSectionHeader nav ol li a:hover{
+    color: green;
+}
+.staffMembers img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.staffMembers .row{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.staffMembers img:hover{
+    box-shadow: 0 0 10px 0 #40bf80;
+    transition: 1s;
+    opacity: .7;
+    transform: scale(1.5);
+    /* transform: rotate(45deg); */
+}
+
+/* Contact Us Page */
+  
+.contact-us.bannerSection{
+    background-image: url('../images/2.jpg');
+    background-position: center;
+    min-height: 20%;
+    color: white;
+    padding: 80px 50px;
+}
+.contact-us.bannerSection ol li,
+.contact-us.bannerSection ol li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-us.bannerSection h3{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.contactSpot .card{
+    padding: 5px;
+}
+.contactSpot .card:hover{
+    box-shadow: 0 0 10px 0px turquoise;
+    transition: .7s;
+}
+.contactSpot .contact-details .row{
+    padding-top: 15px;
+    font-size: 16px;
+
+}
+.contactSpot .row .fas{
+    padding-top: 3px;
+    color: springgreen;
+    font-size: 24px;
+    text-align: center;
+}
+.contactSpot .contact-details p:hover{
+
+    color: springgreen;
+    padding-left: 5px;
+    transition: .5s;
+}
+.contactSpot a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.contactSpot a:hover{
+    color: springgreen;
+    padding-left: 3px;
+    transition: .2s;
+}
+.menu img{
+    width: 100px;
+    height: 60px;
+}
+.menu a.navbar-brand{
+    color:green;
+    font-family: fantasy;
+    font-size: 20px!important;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu ul li a{
+    color: gray;
+    font-weight: 700;
+}
+.menu ul li a:focus:before{
+    color: lightcoral;
+    content:'' ;
+    background-color: greenyellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: -2px;
+    top:0px;
+    display: inline-block;
+
+}
+.menu ul.dropdown-menu li a{
+    padding-top: 2px!important;;
+    padding-bottom: 2px!important; ;
+}
+.menu ul.dropdown-menu li a:hover{
+    border-top:3px solid green;
+    margin-left: 10px;
+    transition: 0.8s;
+}
+.liz{
+    background-color:white;
+    padding-top: 60px;
+}
+.cynthia{
+   background-color:#f7e2d8;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #656565;
+   
+}
+.pageTitle{
+    background-color: chocolate;
+    padding-top: 28px;
+    padding-bottom: 15px;
+    
+}
+.mum{
+    background-color:#f7e2d8;
+}
+.mum i{
+    text-align: center!important;
+    font-size: 50px;
+}
+.mum .card img{
+    height: 180px;
+}
+.i{
+    background-color:#f7e2d8;
+}
+#wrapper{
+    background-color: #f7e2d8;
+}
+
+   

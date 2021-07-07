@@ -1,0 +1,243 @@
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+  height: 14px;
+}
+p {
+  font-size: 16px;
+  color:rgb(180, 154, 6) ;
+  line-height: 1.8;
+  font-weight: bold;
+}
+.navbar {
+  float: left;
+
+}
+/* navigation css */
+.navbar img{
+  width:100px ;
+  height: 100px;
+  }
+  .navbar a.navbar-brand{
+  color:green ;
+  font-family: fantasy;
+  font-size: 20px;
+  }
+  .menu ul li a{
+  color:green ;
+  font-weight: 700;
+  
+  }
+  
+body {
+  background-color:rgb(248, 241, 241);
+  font-size: 20px;
+  width: 100%;
+
+  }
+  .container-fluid {
+  width: 900px;
+  background-color: white;
+  margin:  auto;
+  text-align: justify;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+  .navbar img {
+    width: 150px ;
+    height: 150px;
+
+  }
+
+  .navbar li {
+    padding: 6px 6px;
+    font-weight: bolder;
+  font-family: cursive;
+  font-style: italic;
+
+  }
+ .navbar {
+      list-style-type: none;
+      float: left;
+      border-right: solid 1PX blue;
+      padding: 5px 9px;
+  }
+  
+  .bannerSection img {
+    height: 440px;}
+    .carousel-item {
+      height: 440px ;
+      
+    }
+    
+    .row img {
+      border-radius: 50%;
+      
+    }
+    .row img:hover{
+      transform: scale(1px 2px);
+    }
+    .cardsection .card img {
+      width: 200px;
+      height: 300px;
+    }
+    /* footer css */
+    .footer {
+      background-image: url(../images/);
+    }
+    .footer a,
+.footer p {
+  color:rgb(180, 154, 6) ;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.footer h4 {
+  color:rgb(180, 154, 6);
+  font-weight: bolder;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.footer .socialicons li{
+  color:rgb(180, 154, 6) ;
+  display: inline;
+  float: left;
+  text-align: center;
+  margin-right: 15px;
+  border: 3px solid rgb(180, 154, 6);
+  border-radius: 50px;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+}
+.col-md-6 ul li{
+  color:rgb(180, 154, 6) ;
+  text-decoration:none;
+  font-weight: bolder;
+  font-family: cursive;
+  font-style: italic;
+  list-style-type: none;
+}
+.col-md-6 ul li:hover{
+margin-left: 10px;
+  color:rgb(180, 154, 6) !important;
+  transition: 0.7s
+}
+.pagesection h3{
+  color:rgb(180, 154, 6);
+  font-style: italic;
+  font-family:cursive;
+font-weight:500;
+}
+/* resturant page */
+.resturant .row {
+  padding-top: 125px;
+
+}
+
+.resturant h2 {
+  font-family:cursive;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: xx-large;
+  color:rgb(180, 154, 6);
+}
+.resturant .row img {
+  height:400px ;
+  width: 550px;
+}
+.imagesection img{
+width: 300px;
+height: 200px;
+
+}
+.imagesection img:hover{
+  transform:;
+  transition: 1s;
+}
+.imagesection p{
+  color:rgb(180, 154, 6) ;
+  font-family: cursive;
+  font-display:inherit;
+  font-style: italic;
+}
+/* contact spot */
+.contactSpot{
+  padding: 50PX;
+  background:rgb(206, 204, 204);
+}
+.contactSpot p,h3{
+  color: rgb(180, 154, 6);
+  font-family: cursive;
+  font-style: italic;
+}
+.contactSpot img {
+  margin-top: 50px;
+  height:400px ;
+  width:900px ;
+  border-radius: 40px;
+}
+/* events page */
+.eventssection {
+padding: 130px;
+}
+.eventssection h3{
+  color: rgb(180, 154, 6);
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 900;
+}
+.eventssection img{
+  width: 400px;
+  height: 400px;
+}
+.images{
+  padding: 0px;
+}
+.images img{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding:15px ;
+
+}
+/* room section  */
+.roomsection {
+  padding:190px ;
+}
+.roomsection img {
+  height:300px ;
+  width:400px ;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding:15px ;
+}
+.roomsection ul li {
+  color:rgb(180, 154, 6) ;
+  list-style-type: none;
+  display: inline;
+  float: left;
+  text-align: center;
+  margin-right: 15px;
+  
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+}
