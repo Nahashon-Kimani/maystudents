@@ -18,6 +18,20 @@ background: linear-gradient(180deg, rgb(98, 179, 25) 0%, rgba(248,112,9,1) 100%,
     transform: scale(1.0005);
     box-shadow: 0 10px 20px #f8710942, 0 4px 8px #61b31900;
 }
+.students a{
+    color: #62b319;
+    text-decoration: none;
+}
+.students a:hover{
+    text-decoration: underline;
+    color: #f87009;
+    margin-left: 2px;
+    transition: .7s;
+}
+.students .card img:hover{
+    opacity: .7;
+    transition: .7s;
+}
 .students .card img{
     height: 330px;
 }
