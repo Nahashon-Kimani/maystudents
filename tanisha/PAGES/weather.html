@@ -1,0 +1,159 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+<!-- Font awesomes CDN -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"> -->
+        <!-- <link rel="stylesheet" href="assets/css/font-awesome.css"> -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+        <!--custom CSS-->
+        <link rel="stylesheet"  href="../css/Styling.css">
+
+
+
+</head>
+
+
+
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <!--Navbar-->
+                        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                            <!-- Collapse button -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                                    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                </span>
+                            </button>
+
+                            <!-- Collapsible content -->
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                                <!-- Links -->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Home </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="calculator.html">Calculator </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="weather.html">Weather Forecast </a>
+                                    </li>
+                                </ul>
+                                <!-- Links -->
+
+                            </div>
+                            <!-- Collapsible content -->
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- forecast -->
+        <section>
+            <div class="row">
+                <div class="col-12">
+                    <h2>7 Day Weather Forecast</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <label for="Address">Enter your Address</label>
+                    <input type="email" class="form-control" id="Address" name="Address" required />
+                </div>
+                
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm">
+                    <button class="btn btn-primary" id="weather">Submit</button>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm">
+                    <label for="res">Result:</label>
+                    <div id="res">
+                        <div id="sun">
+                            Sun:
+                            <img id="sunImg" src="../img/10d.png" alt="image" />
+                            <p id="sunP"></p>
+                            <p id="sunP2"></p>
+                        </div>
+
+                        <div id="mon">
+                            Mon:
+                            <img id="monImg" src="../img/11d.png" alt="image" />
+                            <p id="monP"></p>
+                            <p id="monP2"></p>
+                        </div>
+
+                        <div id="tue">
+                            Tue:
+                            <img id="tueImg" src="../img/01d.png" alt="image" />
+                            <p id="tueP"></p>
+                            <p id="tueP2"></p>
+                        </div>
+
+                        <div id="wed">
+                            Wed:
+                            <img id="wedImg" src="../img/02d.png" alt="image" />
+                            <p id="wedP"></p>
+                            <p id="wedP2"></p>
+                        </div>
+
+                        <div id="thu">
+                            Thurs:
+                            <img id="thuImg" src="../img/03n.png" alt="image" />
+                            <p id="thuP"></p>
+                            <p id="thuP2"></p>
+                        </div>
+
+                        <div id="fri">
+                            Fri:
+                            <img id="friImg" src="../img/04d.png" alt="image" />
+                            <p id="friP"></p>
+                            <p id="friP2"></p>
+                        </div>
+
+                        <div id="sat">
+                            Sat:
+                            <img id="satImg" src="../img/09d.png" alt="image" />
+                            <p id="satP"></p>
+                            <p id="satP2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--Jquery-->
+<script src="../JS/jquery.min.js"></script>
+
+<!--Popper Js-->
+<script src="../JS/popper.min.js"></script>
+
+<!--Bootstrap Js-->
+<script src="../JS/bootstrap.min.js"></script>
+</body>
+</html>

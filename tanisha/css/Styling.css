@@ -1,0 +1,13 @@
+﻿body {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: rgb(176, 170, 211) ;
+}
+
+.article-title {
+    color: DodgerBlue;
+}
+.container-fluid{
+    background-color: rgb(176, 170, 211);
+    
+}
