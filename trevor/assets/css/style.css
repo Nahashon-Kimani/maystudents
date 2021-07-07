@@ -1,0 +1,214 @@
+h1{
+    font-size: 70px; 
+}
+h2{
+    font-size: 42px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 14px;
+}
+p{
+    font-size: 16px;
+    color: white;
+    line-height: 1.8;
+}
+
+.bannerSection .bannerImage
+{
+    height: 440px;
+}
+
+.marketingSection
+{
+    padding-top: 60px;
+}
+
+.border{
+    background-color:black;
+    height: 4px!important;
+    width: 40px;
+    margin: 10px 0px;
+}
+.marketingSection p{
+    max-width: 50%;
+    text-align: center;
+}
+.marketingSection .fas{
+    width: 100px;
+    height: 100px;
+    color: grey;
+    border: 2px solid grey;
+    padding: 25px;
+    border-radius: 40%;
+    transition: 0.2s linear;
+    font-size: 40px;
+}
+.marketingSection .fas:hover{
+    border-radius: 50%;
+}
+.marketingSection h4{
+    color: #64788a!important;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.achievements img{
+    box-shadow: 17px 17px #d8d9da;
+}
+.achievements p.h5{
+    color:black;
+    font-weight: bold;
+}
+.memberSection {
+    background-color:black;
+    padding: 80px 0px 80px 0px;
+}
+.memberSection h3{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.memberSection p.h5{
+    font-size: 20px;
+    color: white;
+}
+.memberSection .border{
+    background-color: white;
+    height: 4px!important;
+    width: 40px;
+    margin: 10px 0px;
+}
+.contact-us.bannerSection{
+    background-image: url('../images/slide1.jpg');
+    min-height: 10%;
+    color:white;
+    padding: 80px 50px;
+}
+.contact-us.bannerSection ol li,
+.contact-us.bannerSection ol li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container-fluid{
+    color:black;
+}
+.logo_image{
+    max-width:50px;
+    max-height: 50px;;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  body {
+    font-family: 'Signika', sans-serif;
+ }
+ .bg-grey {
+    background: #292929;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+ }
+ footer {
+        color: grey;
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+ .btn-footer {
+             color: grey;
+          
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 30px;
+            line-height: 47px;
+ }
+ .btn-footer:hover {
+            
+            text-decoration: none;
+           
+ }
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+    margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+ .social .fa {
+color:black;
+font-size: 22px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+ footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color:grey;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color:black !important;
+
+}
+.logo-part {
+border-right: 1px solid grey;
+height: 100%;
+}

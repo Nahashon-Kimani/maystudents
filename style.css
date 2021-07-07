@@ -1,7 +1,7 @@
 .top-image 
 {
     background: rgb(98,179,25);
-background: linear-gradient(180deg, rgba(98,179,25,1) 0%, rgba(248,112,9,1) 100%, rgba(98,179,25,0.9500175070028011) 100%);
+background: linear-gradient(180deg, rgb(98, 179, 25) 0%, rgba(248,112,9,1) 100%, rgba(98,179,25,0.9500175070028011) 100%);
     min-height: 70vh;
     text-align: center;
     display: flex;
@@ -12,4 +12,9 @@ background: linear-gradient(180deg, rgba(98,179,25,1) 0%, rgba(248,112,9,1) 100%
     font-size: 3rem;
     color: white;
     background-color: #f8710986;
+}
+.students .card:hover
+{
+    transform: scale(1.0005);
+    box-shadow: 0 10px 20px #f8710942, 0 4px 8px #61b31900;
 }
